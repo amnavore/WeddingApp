@@ -1,3 +1,3 @@
 class Guest < ApplicationRecord
-  belongs_to_many :guests
+  belongs_to :event
 end
