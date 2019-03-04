@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  location: MyString
-  date: 2019-02-20 17:12:18
-  description: MyText
+  name: Our Wedding
+  location: KCMO
+  date: 2019-08-03 18:30:00
+  description: J & A's wedding ceremony.
 
 two:
-  name: MyString
-  location: MyString
-  date: 2019-02-20 17:12:18
-  description: MyText
+  name: Our Reception
+  location: KCMO
+  date: 2019-08-03 20:30:00
+  description: J & A's wedding reception. 
