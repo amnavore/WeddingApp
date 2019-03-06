@@ -10,23 +10,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_20_231218) do
+ActiveRecord::Schema.define(version: 2019_03_06_234321) do
 
   create_table "events", force: :cascade do |t|
-    t.string "Our Wedding"
-    t.string "KCMO"
-    t.datetime "2019-08-03 18:30:00"
+    t.string "name"
+    t.string "location"
+    t.datetime "date"
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "guests", force: :cascade do |t|
-    t.string "Test Dummy"
-    t.integer "2"
-    t.string "Accepts"
+    t.string "name"
+    t.integer "party"
+    t.string "response"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "event_id"
+    t.index ["event_id"], name: "index_guests_on_event_id"
   end
 
 end
