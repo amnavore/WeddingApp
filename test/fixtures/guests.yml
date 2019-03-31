@@ -3,9 +3,9 @@
 one:
   name: Good Friend
   party: 2
-  response: Happily accepts
+  response: true
 
 two:
   name: Family Friend
   party: 5
-  response: Regretfully decline
+  response: false
